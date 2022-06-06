@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: fixed;
+    height: 70px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: aqua;
+    text-align: center;
+}
+
+main {
+    margin-top: 100px;
+    background-color: grey;
+}
+
+header nav li {
+    display: inline-block;
+    line-height: 70px;
+    padding: 0px 10px;
+}
+
+
+header li img {
+    vertical-align: middle;
+    height: 30px;
+}
+
+header li a {
+    text-decoration: none;
+    color: rgb(3, 130, 185);
+    display: inline-block;
+}
+
+
+header li a:hover {
+    background-color: bisque;
+}
+
+header li a.logo:hover {
+    background-color: transparent;
+}
+
+header li a.active {
+    border-bottom: 3px red solid;
+}
